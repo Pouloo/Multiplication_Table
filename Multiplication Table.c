@@ -1,47 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/// For Design
+// Prototypes
 void Design();
+void Multiplication();
 
 int main()
 {
-    int table, multiples, maxmlt;
-    int continuance = 1;
-
-    /// For Design
-    Design();
-
-
-    while(continuance == 1)
-    {
-
-        printf("Insert table: ");
-        scanf("%d", &table);
-
-        printf("\nInsert max multiple: ");
-        scanf("%d", &maxmlt);
-
-        printf("\nTABLE OF %d\n", table);
-
-        for (multiples=0; multiples<=maxmlt; multiples++)
-        {
-            printf("%d x %d = %d\n", table, multiples, table*multiples);
-        }
-
-        printf("\nProceed with another table?\n");
-        printf("-press 1 to proceed\n");
-        printf("-press ANY OTHER NUMBER to end program\n");
-        scanf("%d", &continuance);
-        printf("\n");
-        system("cls"); /// Clear the console screen
-
-    }
-
-    return 0;
-
+	Design();
+	Multiplication();
+	
+	return 0;
 }
 
+// For design 
 void Design()
 {
     for(int i = 0; i<50; i++)
@@ -57,4 +29,37 @@ void Design()
         printf("=");
     }
     printf("\n\n");
+}
+
+// For the muliplication table
+void Multiplication()
+{
+    int table, multiples, maxMlt;
+    int continuance = 1;
+
+    while(continuance == 1)
+    {
+
+        printf("Insert table: ");
+        scanf("%d", &table);
+
+        printf("\nInsert max multiple: ");
+        scanf("%d", &maxMlt);
+
+        printf("\nTABLE OF %d\n", table);
+
+        for (multiples=0; multiples<=maxMlt; multiples++)
+        {
+            printf("%d x %d = %d\n", table, multiples, table*multiples);
+        }
+
+        printf("\nProceed with another table?\n");
+        printf("-press 1 to proceed\n");
+        printf("-press ANY OTHER NUMBER to end program\n");
+        scanf("%d", &continuance);
+        printf("\n");
+		
+        system("cls"); // Clears the console screen
+    }
+
 }
