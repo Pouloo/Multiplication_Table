@@ -1,17 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/// For Design
+// Prototypes
+void Multiplication();
 void Design();
 
 int main()
 {
-    int table, multiples, maxmlt;
+	Multiplication();
+	Design();
+	
+	return 0;
+}
+
+void Multiplication()
+{
+    int table, multiples, maxMlt;
     int continuance = 1;
-
-    /// For Design
-    Design();
-
 
     while(continuance == 1)
     {
@@ -20,11 +25,11 @@ int main()
         scanf("%d", &table);
 
         printf("\nInsert max multiple: ");
-        scanf("%d", &maxmlt);
+        scanf("%d", &maxMlt);
 
         printf("\nTABLE OF %d\n", table);
 
-        for (multiples=0; multiples<=maxmlt; multiples++)
+        for (multiples=0; multiples<=maxMlt; multiples++)
         {
             printf("%d x %d = %d\n", table, multiples, table*multiples);
         }
@@ -34,11 +39,9 @@ int main()
         printf("-press ANY OTHER NUMBER to end program\n");
         scanf("%d", &continuance);
         printf("\n");
-        system("cls"); /// Clear the console screen
-
+		
+        system("cls"); // Clears the console screen
     }
-
-    return 0;
 
 }
 
