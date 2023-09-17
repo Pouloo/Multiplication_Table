@@ -17,7 +17,7 @@ int main()
 void Design()
 {
 	int i;
-	
+
     for(i = 0; i<50; i++)
     {
         printf("=");
@@ -25,7 +25,7 @@ void Design()
     printf("\n");
 
     printf("\t\tMultiplication Table\n\n");
-	
+
     for(i = 0; i<50; i++)
     {
         printf("=");
@@ -60,7 +60,7 @@ void Multiplication()
         printf("-press ANY OTHER NUMBER to end program\n");
         scanf("%d", &continuance);
         printf("\n");
-		
+
         system("clear"); // Clears the console screen
     }
 
