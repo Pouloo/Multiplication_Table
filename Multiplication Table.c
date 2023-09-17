@@ -16,15 +16,17 @@ int main()
 // For design 
 void Design()
 {
-    for(int i = 0; i<50; i++)
+	int i;
+	
+    for(i = 0; i<50; i++)
     {
         printf("=");
     }
     printf("\n");
 
     printf("\t\tMultiplication Table\n\n");
-
-    for(int i = 0; i<50; i++)
+	
+    for(i = 0; i<50; i++)
     {
         printf("=");
     }
@@ -59,7 +61,7 @@ void Multiplication()
         scanf("%d", &continuance);
         printf("\n");
 		
-        system("cls"); // Clears the console screen
+        system("clear"); // Clears the console screen
     }
 
 }
