@@ -9,7 +9,7 @@ This project is a simple implementation of a multiplication table generator. It 
 # Usage
 ### How to use?
 1. Download the code
-2. Import the code in your IDE and run the program or copy paste the code and run.
+2. Import the code in your IDE or text editor of choice and run the program, or copy paste the code and run.
 
 # Contributing
 If you'd like to contribute to this project, please follow these guidelines:
