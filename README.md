@@ -1,14 +1,10 @@
 # Multiplication Table
 This project is a simple implementation of a multiplication table generator. It allows users to input the desired size of the table and generates a formatted multiplication table in the console or command line.
 
-# Features
+### Features
 1. Generates a multiplication table of a specified size.
 2. Supports customizable table size.
 3. Displays the table in a neat and formatted manner.
-
-# Getting Started
-These instructions will help you get a copy of the project up and running on your local machine.
-
 
 # Usage
 ### How to use?
